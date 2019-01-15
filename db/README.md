@@ -13,6 +13,13 @@ There are two backups of the database provided for easily creating the database.
 
 These were created in SQL Server 2014
 
+## DB Build Steps
+
+1. Open createdbapp in VS Code
+1. Run `npm install`
+1. Start VSCode debugging `F5`
+
+
 ## Login / App Access
 
 The solution from the HoLs did not include scripts for creating the login. To simulate a more common scenario for on-premises migrations we have configured a Login/User mapping within SQL. 
