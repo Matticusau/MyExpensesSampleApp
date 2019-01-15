@@ -1,0 +1,5 @@
+{
+  "clientID": "d0f286aa-7737-4689-8eae-3c111afc9217",
+  "identityMetadata": "https://login.microsoftonline.com/807409ad-6e7a-48fb-8470-1dd93a0869a7/.well-known/openid-configuration",
+  "audience": "a086d595-e92f-4d5e-86ed-fdd3b8c99d9d"
+}
