@@ -34,11 +34,14 @@ To access when debugging with npm start: [http://localhost:8000/#/](http://local
 
 ### Web Content Deployment
 
-1. Copy this project to C:\inetpub\wwwroot
+1. Clone this repository to your computer
+1. Copy the webapp project to C:\inetpub\wwwroot
 1. Open a console, navigate to _*C:\inetpub\wwwroot*_, and run *npm install*
 1. Set Read/Write permissions on C:\inetpub\wwwroot
 1. By default the database connection is set to localhost in the `/server/config/server.config.js` file. Either edit the file or use Environment Variables to override the setting (Preferred).
 1. Open your browser and test that the site displays
+
+NOTE: For Windows deployments without using git, download the content from the [Releases](https://github.com/Matticusau/MyExpensesSampleApp/releases/tag/1.0.0)
 
 Reference material: [https://hostek.com/blog/node-js-applications-on-windows-iis/](https://hostek.com/blog/node-js-applications-on-windows-iis/)
 [https://wiki.hostek.com/Node.js_on_Windows](https://wiki.hostek.com/Node.js_on_Windows)
