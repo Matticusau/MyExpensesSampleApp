@@ -29,14 +29,16 @@ To access when debugging with npm start: [http://localhost:8000/#/](http://local
     ![IIS.HandlerMappings01.png](./images/IIS.HandlerMappings01.png)
     ![IIS.HandlerMappings02.png](./images/IIS.HandlerMappings02.png)
 
-1. Set Read/Write permissions on C:\inetpub\wwwroot
 1. Install the iisnode module [https://github.com/Azure/iisnode/releases](https://github.com/Azure/iisnode/releases) -> [https://github.com/Azure/iisnode/releases/download/v0.2.26/iisnode-full-v0.2.26-x64.msi](https://github.com/Azure/iisnode/releases/download/v0.2.26/iisnode-full-v0.2.26-x64.msi)
 1. Install the URL Rewrite module [https://www.iis.net/downloads/microsoft/url-rewrite](https://www.iis.net/downloads/microsoft/url-rewrite) -> [https://www.microsoft.com/web/handlers/webpi.ashx?command=getinstallerredirect&appid=urlrewrite2](https://www.microsoft.com/web/handlers/webpi.ashx?command=getinstallerredirect&appid=urlrewrite2)
 
-### Web Content
+### Web Content Deployment
 
 1. Copy this project to C:\inetpub\wwwroot
 1. Open a console, navigate to _*C:\inetpub\wwwroot*_, and run *npm install*
+1. Set Read/Write permissions on C:\inetpub\wwwroot
+1. By default the database connection is set to localhost in the `/server/config/server.config.js` file. Either edit the file or use Environment Variables to override the setting (Preferred).
+1. Open your browser and test that the site displays
 
 Reference material: [https://hostek.com/blog/node-js-applications-on-windows-iis/](https://hostek.com/blog/node-js-applications-on-windows-iis/)
 [https://wiki.hostek.com/Node.js_on_Windows](https://wiki.hostek.com/Node.js_on_Windows)
